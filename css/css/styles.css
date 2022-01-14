@@ -4,7 +4,7 @@ body {
     background: lightseagreen;
   }
   
-  /* Header/Blog Title */
+   /* Header/Blog Title  */
   .header {
     padding: 30px;
     font-size: 40px;
@@ -12,42 +12,42 @@ body {
     background: darkred;
   }
   
-  /* Create two unequal columns that floats next to each other */
-  /* Left column */
+   /* Create two unequal columns that floats next to each other  */
+   /* Left column  */
   .leftcolumn {
     float: left;
     width: 75%;
   }
   
-  /* Right column */
+   /* Right column  */
   .rightcolumn {
     float: left;
     width: 25%;
     padding-left: 20px;
   }
   
-  /* Fake image */
+   /* Fake image  */
   .fakeimg {
     background-color: darkslategray;
     width: 100%;
     padding: 20px;
   }
   
-  /* Add a card effect for articles */
+   /* Add a card effect for articles  */
   .card {
     background-color: slateblue;
     padding: 20px;
     margin-top: 20px;
   }
   
-  /* Clear floats after the columns */
+   /* Clear floats after the columns  */
   .row:after {
-    content: "";
+    content: " ";
     display: table;
     clear: both;
   }
   
-  /* Footer */
+   /* Footer  */
   .footer {
     padding: 20px;
     text-align: center;
