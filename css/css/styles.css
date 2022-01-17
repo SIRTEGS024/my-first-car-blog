@@ -1,29 +1,27 @@
-body {
-    font-family: Arial;
-    padding: 20px;
+body {  
     background: lightseagreen;
   }
   
    /* Header/Blog Title  */
   .header {
-    padding: 30px;
+    padding:40px ;
     font-size: 40px;
     text-align: center;
-    background: darkred;
+    
   }
   
    /* Create two unequal columns that floats next to each other  */
    /* Left column  */
   .leftcolumn {
     float: left;
-    width: 75%;
+    width: 50%;
   }
   
    /* Right column  */
   .rightcolumn {
-    float: left;
-    width: 25%;
-    padding-left: 20px;
+    float: right;
+    width:25% ;
+    padding: 160px;
   }
   
    /* Fake image  */
@@ -47,18 +45,6 @@ body {
     clear: both;
   }
   
-   /* Footer  */
-  .footer {
-    padding: 20px;
-    text-align: center;
-    background: yellowgreen;
-    margin-top: 20px;
-  }
+
   
-  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {
-      width: 100%;
-      padding: 0;
-    }
-  }
+  
